@@ -10,7 +10,7 @@ export default function BgHeading( { content }:{ content:string } ) {
         initial={{ opacity:0, x:-100 }}
         whileInView={{ opacity:[0,100,100] , x:0 }}
         viewport={{ once:true }}
-        transition={{ type:'tween', duration:'2.5', ease:'easeInOut' }}
+        transition={{ type:'tween', duration:2.5, ease:'easeInOut' }}
       >
         {content}
       </motion.h1>
